@@ -62,7 +62,6 @@ char *find_string(char *haystack, char *needle)
 
     for (int i = 0; i <= length; i++)
     {
-        // printf("%d", i);
         if (haystack[i] == *needle)
         {
             char *p = &haystack[i];
